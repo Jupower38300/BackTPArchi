@@ -3,10 +3,10 @@ import http from "http";
 import cors from "cors";
 import { ChatController } from "./api/chat.controler.js";
 import { WhoAmControler } from "./api/whoami.controler.js";
-import cors from "cors";
 
 
-export const clients = ["172.20.10.4","172.20.10.3"]; // <--- Liste d'IP clients
+
+export const clients = []; // <--- Liste d'IP clients
 
 const PORT = 3000;
 const app = express();

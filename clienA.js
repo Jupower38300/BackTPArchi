@@ -16,7 +16,7 @@ function getIP() {
 }
 
 const MY_IP = getIP();
-const SERVICE_X = "172.20.10.2"; // <-- MET TON IP ICI
+const SERVICE_X = "172.20.10.4"; // <-- MET TON IP ICI
 
 // Déclare le client auprès du Service X
 axios.post(`http://${SERVICE_X}:3000/register`, { ip: MY_IP });

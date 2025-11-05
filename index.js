@@ -11,6 +11,7 @@ export const clients = []; // <--- Liste d'IP clients
 const PORT = 3000;
 const app = express();
 app.use(cors());
+app.use(express.json());
 const server = http.createServer(app);
 
 // Enregistrement d'un client (Client A)
